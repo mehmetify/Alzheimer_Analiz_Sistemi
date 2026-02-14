@@ -5,7 +5,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Veri Dizinleri
 DATA_DIR = os.path.join(BASE_DIR, "data")
-RAW_IMG_DIRS = [os.path.join(DATA_DIR, "raw", "OAS2_RAW_PART1")]
+RAW_IMG_DIRS = [
+    os.path.join(DATA_DIR, "raw", "OAS2_RAW_PART1"),
+    os.path.join(DATA_DIR, "raw", "OAS2_RAW_PART2")
+]
 TEST_SAMPLE_DIR = os.path.join(DATA_DIR, "test_sample")
 METADATA_PATH = os.path.join(DATA_DIR, "metadata", "oasis_data.csv")
 
