@@ -1,0 +1,27 @@
+
+PROJE HAKKINDA
+--------------
+Bu proje, OASIS-2 veri setini kullanarak Alzheimer hastalığının erken teşhisine
+yardımcı olan yapay zeka destekli bir karar destek sistemidir.
+
+OZELLIKLER:
+- 3D CNN ile MR görüntü analizi
+- Random Forest ile klinik veri analizi  
+- Hibrit (Füzyon) model ile birleşik tahmin
+- Streamlit ile interaktif web arayüzü
+
+KURULUM
+-------
+1. Gerekli kütüphaneleri yükleyin:
+   
+   pip install -r requirements.txt
+
+2. Uygulamayı çalıştırın:
+
+   python -m streamlit run app.py
+
+
+GELISTIRICI
+-----------
+Ogrenci No: 23040301020
+Ders: Programlama Dilleri Projesi

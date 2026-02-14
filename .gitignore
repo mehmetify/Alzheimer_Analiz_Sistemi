@@ -1,0 +1,22 @@
+# Veri setlerini yoksay
+data/
+*.zip
+*.rar
+*.tar.gz
+
+# Python önbellek dosyaları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ortam dosyaları
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE ayarları
+.vscode/
+.idea/

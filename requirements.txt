@@ -1,0 +1,11 @@
+numpy
+pandas
+nibabel
+scipy
+tensorflow
+scikit-learn
+matplotlib
+seaborn
+xgboost
+openpyxl
+streamlit
